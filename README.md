@@ -26,6 +26,7 @@ This is a simple Java-based object-oriented application for managing a bookstore
 - Main :	Demonstrates adding, buying, and removing books
 
 ## *📦 Example Output*
+
 === Buying Paper Book ===
 Paid amount: 100.0
 The paper book is included in the shipping service. Please send it to the following customer address: Shoubra Masr
@@ -45,5 +46,6 @@ Removed outdated book: OOP
 
 === Removing a book manually ===
 Removed: C++ basics
+
 
 
