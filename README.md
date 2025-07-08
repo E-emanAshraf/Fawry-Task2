@@ -8,11 +8,11 @@ This is a simple Java-based object-oriented application for managing a bookstore
 
 - Handle purchase operations for:
 
- 📦 PaperBooks: quantity-based and shipped to address.
+   📦 PaperBooks: quantity-based and shipped to address.
 
- 📧 EBooks: emailed to user.
+   📧 EBooks: emailed to user.
 
- ❌ DemoBooks: not for sale.
+   ❌ DemoBooks: not for sale.
 
 - Display formal system messages for user interactions.
 
