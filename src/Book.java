@@ -1,4 +1,4 @@
-public abstract class Book {
+public class Book {
     protected String ISBN;
     protected String title;
     protected int published_year;
