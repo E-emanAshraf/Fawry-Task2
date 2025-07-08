@@ -20,6 +20,7 @@ public class Inventory {
             System.out.println("Removed: " + b.title);
             books.remove(b.ISBN);
         } else {
+            //throw new IllegalArgumentException("The requested book could not be found in the inventory.");
             System.out.println("The requested book could not be found in the inventory.");
         }
     }
@@ -43,6 +44,7 @@ public class Inventory {
 
     public void buy(String isbn,int quantity,String email,String address){
         if(books.get(isbn) instanceof DemoBook){
+            //throw new IllegalArgumentException("This book is a demo copy and is not available for sale.");
             System.out.println("This book is a demo copy and is not available for sale.");
             return;
         }
@@ -54,6 +56,7 @@ public class Inventory {
                     service.send(address,books.get(isbn));
                 }
                 else{
+                    //throw new IllegalArgumentException("Insufficient quantity available.");
                     System.out.println("Insufficient quantity available.");
                     return;
                 }
